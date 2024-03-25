@@ -1,4 +1,7 @@
-﻿
+﻿// ---- C# II (Dor Ben Dor) ----
+//         Amit Breiman
+// -----------------------------
+
 namespace GenericTypes
 {
     class Deck<T> : IRandomProvider<T> where T : struct, IComparable<T>
